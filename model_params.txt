@@ -1,0 +1,43 @@
+##model params#
+ft_ex1 = number of filters in the 1st CNN layer in feature extraction block
+ft_ex2 = number of filters in the 2nd CNN layer in feature extraction block
+atv = number of nodes in dense layer for attention computation
+dcv = number of nodes in dense layer for classification
+dloss_ats_x = weight of loss of domain estimate using attention
+filter_height_one = filter height of the 1st CNN layer
+filter_height_two = filter height of the 2nd CNN layer 
+
+
+[Parameters used in this study]
+worm vs beetle
+##model params#
+ft_ex1 = 7
+ft_ex2 = 4
+atv = 3
+dcv = 3
+dloss_ats_x = 0.0001
+filter_height_one = 10
+filter_height_two = 40
+########
+
+worm vs human
+##model params#
+ft_ex1 = 7
+ft_ex2 = 5
+atv = 3
+dcv = 3
+dloss_ats_x = 70
+filter_height_one = 20
+filter_height_two = 40
+########
+
+worm vs mouse
+##model params#
+ft_ex1 = 7
+ft_ex2 = 4
+atv = 3
+dcv = 4
+dloss_ats_x = 1
+filter_height_one = 20
+filter_height_two = 50
+########

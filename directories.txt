@@ -1,0 +1,6 @@
+normal-pre_sm2: mouse DA(+)
+pd-pre_sm2: mouse DA(-)
+trans-norm: worm DA(+)
+trans-dop3: worm DA(-)
+trans-Short_A: beetle DA(+)
+trans-longA: beetle DA(-)
